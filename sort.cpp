@@ -17,16 +17,16 @@ int SortAnalysis(auto& A )
   for (int i = 1u; i < A.size(); i++)
    {
       int v = A[i];
-      int j = i - 1;
+      int k = i - 1;
 
-      while (j >= 0 and A[j] > v )
+      while ( A[j] > v and k >= 0 )
         {
           count = count + 1;
-          A[j + 1] = A[j];
-          j = j -1;
+          A[k + 1] = A[k];
+          k = k -1;
         } 
      
-     A[j + 1] = v;
+     A[k + 1] = v;
  
    }
   
