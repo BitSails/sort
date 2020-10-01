@@ -1,7 +1,7 @@
-Basic Sort
+Basic Sort. 
 ============
 
-A basic 🤩  sorting algorithm 
+A basic 🤩  sorting algorithm    
 
 
 Usage 
